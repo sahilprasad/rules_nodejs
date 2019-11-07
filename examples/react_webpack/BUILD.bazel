@@ -18,6 +18,7 @@ tsc(
     outs = ["index.js"],
     args = [
         "$(location index.tsx)",
+        "$(location App.tsx)",
         "$(location types.d.ts)",
         "--outDir",
         "$@",
@@ -29,6 +30,7 @@ tsc(
     data = [
         "index.tsx",
         "types.d.ts",
+        "App.tsx",
         "@npm//@types",
         "@npm//csstype",
     ],

@@ -2,7 +2,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import * as styles from "./styles.css";
 
+import App from "./App";
+
 ReactDOM.render(
-  <h1 className={styles.h1}>Hello, world!</h1>,
+  <App />,
   document.getElementById("root")
 );
